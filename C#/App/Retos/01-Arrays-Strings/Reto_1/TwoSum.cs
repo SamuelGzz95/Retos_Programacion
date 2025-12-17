@@ -1,5 +1,5 @@
 ﻿
-namespace ConsoleApp
+namespace App.Retos._01_Arrays_Strings.Reto_1
 {
     internal static class TwoSum
     {
