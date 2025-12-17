@@ -1,7 +1,7 @@
 ﻿
 namespace App.Retos._01_Arrays_Strings.Reto_1
 {
-    internal static class TwoSum
+    internal static class Reto1
     {
         public static int[]? FindTwoSum(int[] nums, int target)
         {

@@ -2,9 +2,9 @@
 
 namespace ConsoleApp
 {
-    internal static class Palindrome
+    internal static class Reto2
     {
-        public static bool Valid(string s)
+        public static bool IsPalindrome(string s)
         {
             string filterS = s.ToLower().Trim().Normalize(System.Text.NormalizationForm.FormD);
             string filterT = Regex.Replace(filterS, "[^a-zA-Z0-9_.]+", "", RegexOptions.Compiled);
@@ -19,7 +19,7 @@ namespace ConsoleApp
         }
 
 
-        public static bool IsPalindrome(string s)
+        public static bool IsPalindrome_IA(string s)
         {
             if (string.IsNullOrEmpty(s))
                 return true; // String vacía es considerada palíndromo
